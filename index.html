@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>German Base Words (A1–C2)</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="wrap">
+    <h1>German Base Words</h1>
+    <p class="sub">1000 base words • verbs/nouns/adjectives • A1–C2</p>
+  </header>
+
+  <main class="wrap">
+    <section class="controls">
+      <input id="q" placeholder="Search (gehen / Haus / gut / …)" />
+      <select id="pos">
+        <option value="all">All</option>
+        <option value="verbs">Verbs</option>
+        <option value="nouns">Nouns</option>
+        <option value="adjectives">Adjectives</option>
+      </select>
+      <select id="level">
+        <option value="all">All levels</option>
+        <option>A1</option><option>A2</option><option>B1</option>
+        <option>B2</option><option>C1</option><option>C2</option>
+      </select>
+      <button id="clear">Clear</button>
+    </section>
+
+    <section id="stats" class="stats"></section>
+    <section id="results" class="results"></section>
+  </main>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
